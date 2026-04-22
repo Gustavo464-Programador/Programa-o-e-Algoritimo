@@ -13,8 +13,7 @@ public class Imc {
 
 
 
-        JOptionPane.showMessageDialog(null,altura);
-        JOptionPane.showMessageDialog(null,Sexo);
+      
         if(Sexo == "masculino") {
             peso = (72.7 * altura) - 58;
             System.out.println("Seu peso ideal e" + peso);
@@ -23,6 +22,7 @@ public class Imc {
             peso = (62.1 * altura) - 44.7;
         {
             System.out.println("Seu peso ideal e " + peso);
+            JOptionPane.showMessageDialog(null,"Seu peso ideal e " + peso);
         }
 
 
